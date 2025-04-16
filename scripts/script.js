@@ -26,8 +26,8 @@ function clickedShareButton() {
   michelleId.classList.add('remove-figure');
   newIcons.classList.add('display-new-icons');
   shareTextElement.classList.add('display-share-text');
-  triangleElement.classList.add('display-triangle');
   iconElement.forEach((icon) => {
     icon.classList.add('display-icon');
   });
+  triangleElement.classList.add('display-triangle');
 }
