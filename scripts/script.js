@@ -27,5 +27,5 @@ function clickedShareButton() {
   newIcons.classList.add('display-new-icons');
   shareTextElement.classList.add('display-share-text');
   iconElement.classList.add('display-icon');
-  triangleElement.classList.add
+  triangleElement.classList.add('display-triangle');
 }
