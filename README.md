@@ -4,7 +4,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/Emmanuel-Malik/frontendmentor-article-preview-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
