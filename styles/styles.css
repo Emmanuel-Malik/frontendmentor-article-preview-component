@@ -181,6 +181,10 @@ body {
   cursor: pointer;
 }
 
+.display-triangle {
+  display: none;
+}
+
 .attribution {
   font-size: 11px; 
   text-align: center; 
@@ -350,7 +354,12 @@ body {
     display: initial;
   }
 
-  /* .triangle {
+  .display-icon {
+    display: initial;
+  }
+
+  /* .display-triangle {
+    display: initial;
     width: 0;
     height: 0;
     border-left: 80px solid transparent;

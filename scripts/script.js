@@ -4,7 +4,7 @@ const shareElement = document.querySelector('.js-share-button-div');
 const shareElementButton = document.querySelector('.share-button');
 const newIcons = document.querySelector('.js-share-icons');
 const shareTextElement = document.querySelector('.js-share-text');
-const iconElement = document.querySelectorAll('js-icon');
+const iconElement = document.querySelectorAll('.js-icon');
 const container = document.querySelector('.js-container');
 const triangleElement = document.querySelector('.js-triangle');
 
@@ -26,6 +26,8 @@ function clickedShareButton() {
   michelleId.classList.add('remove-figure');
   newIcons.classList.add('display-new-icons');
   shareTextElement.classList.add('display-share-text');
-  iconElement.classList.add('display-icon');
   triangleElement.classList.add('display-triangle');
+  iconElement.forEach((icon) => {
+    icon.classList.add('display-icon');
+  });
 }
