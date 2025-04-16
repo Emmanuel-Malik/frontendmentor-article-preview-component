@@ -5,7 +5,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 ### Links
 
 - Solution URL: (https://github.com/Emmanuel-Malik/frontendmentor-article-preview-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://articlepreviewcomponent-e00440.netlify.app/)
 
 
 ### Built with
