@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* MAIN */
+body {
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  background-color: #ecf2f8;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+
+.container {/* 
+  min-height: 80vh; */
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.drawers-image {
+  min-height: 40%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.second-part {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.first-paragraph {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #48556a;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.second-paragraph {
+  font-size: 1rem;
+  color: #6d7f97;
+  font-weight: 500;
+  position: relative;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.share-part {
+  display: flex;
+  padding: 0.5rem;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.figure {
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.name {
+  font-weight: 500;
+  color: #48556a;
+}
+
+.date {
+  color: #6d7f97;
+}
+
+.michelle-image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.share-button-div {
+  width: 20%;
+  background-color: #ecf2f8;
+  display: grid;
+  place-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.share-button {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+
+
+/* After button is clicked */
+.update-container {
+  height: auto;
+}
+
+.new-share-container {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  background-color: #48556a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.remove-figure {
+  display: none;
+}
+
+.share-icons {
+  display: none;
+}
+
+.display-new-icons {
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.display-share-text {
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+  color: #ecf2f8;
+}
+
+.display-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.updated-share-button-div {
+  width: 20%;
+  background-color: #ecf2f8;
+  display: grid;
+  place-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  place-self: center;
+}
+
+.updated-share-button {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .drawers-image {
+    min-height: 100%;
+    width: 40%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .second-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .new-share-container {
+    display: none;
+  }
+  
+
+    
+  .remove-figure {
+    display: initial;
+  }
+
+  .share-icons {
+    display: initial;
+  }
+
+  .display-new-icons {
+   display: none;
+  }
+
+  .display-share-text {
+    display: none;
+  }
+
+  .display-icon {
+    display: none;
+  }
+
+  .share-icons {
+    display: none;
+  }
+
+  .updated-share-button-div {
+   /*  width: 20%;
+    background-color: #ecf2f8;
+    display: grid;
+    place-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    place-self: center; */
+    width: 20%;
+    background-color: #ecf2f8;
+    display: grid;
+    place-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+
+  .updated-share-button {
+    /* width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer; */
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+  }
+
+    
+  .share-part {
+    display: flex;
+    padding: 0.5rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    background-color: white;
+  }
+
+  .figure {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .name {
+    font-weight: 500;
+    color: #48556a;
+  }
+
+  .date {
+    color: #6d7f97;
+  }
+
+  .michelle-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+
+  .share-button-div {
+    width: 20%;
+    background-color: #ecf2f8;
+    display: grid;
+    place-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+  }
+
+  .share-button {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+  }
+
+  .display-new-icons {
+    position: absolute;
+    background-color: #48556a;
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    top: 50%;
+    right: -5%;
+    box-shadow: 2px 2px 5px #6d7f97;
+  }
+
+  .display-share-text {
+    display: initial;
+  }
+
+  /* .triangle {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 100px solid #48556a;
+  } */
+}
